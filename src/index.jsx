@@ -8,13 +8,16 @@ import {View, StyleSheet} from 'react-native'
 //import Botao from './components/Botao'
 //import Contador from './components/Contador'
 //import Pai from './components/Direta/Pai'
-import Pai from './components/Indireta/Pai'
+//import Pai from './components/Indireta/Pai'
+import ContadorV2 from './components/Contador/ContadorV2'
 
 export default () => (
     <View style={style.App}>
-        <Pai/>
+        <ContadorV2/>
+        
         
         {/*
+        <Pai/>
         <Contador inicial={100} passo={13}/>
         <Botao/>
         <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro do Produto"/>
